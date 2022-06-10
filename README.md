@@ -1,6 +1,6 @@
 <h1 align="center">
   <p align="center">Newhappen Academic</p>
-  <a href="https://docusaurus.io"><img src="https://raw.githubusercontent.com/NewHappen-Company/university/main/logo/banner.png?raw=true" alt="Newhappen Academic"></a>
+  <a href="https://docusaurus.io"><img src="https://github.com/NewHappen-Company/academic/blob/main/logo/banner.png?raw=true" alt="Newhappen Academic"></a>
 </h1>
 
 > **A Newhappen está trabalhando na plataforma para acadêmicos. Caso faça sentido para você, pode nos ajudar a realizar esse projeto.**
