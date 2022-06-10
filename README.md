@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <p align="center">Newhappen Academic</p>
+  <a href="https://docusaurus.io"><img src="https://raw.githubusercontent.com/NewHappen-Company/university/main/logo/banner.png?raw=true" alt="Newhappen Academic"></a>
+</h1>
 
-## Getting Started
+> **A Newhappen está trabalhando na plataforma para acadêmicos. Caso faça sentido para você, pode nos ajudar a realizar esse projeto.**
 
-First, run the development server:
+> Nenhuma documentação foi feita no momento. Estamos trabalhando nisso.
 
+## Introdução
+
+A Newhappen Academic é uma plataforma para o apoio psicopedagógico de estudantes de faculdades e universidades do Brasil.
+
+Você pode saber mais sobre a Newhappen acessando [nosso site](https://newhappen.com.br).
+
+## Instalação
+
+Repita as etapas abaixo para conseguir *clonar* o nosso repositório.
+
+- Faça o clone do repositório
 ```bash
-npm run dev
-# or
-yarn dev
+https://github.com/NewHappen-Company/academic.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Instale as dependências do projeto
+```bash
+// Usando yarn
+yarn
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+// Usando NPM
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Rode a aplicação
+```bash
+// Usando yarn
+yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+// Usando NPM
+npm run dev
+```
+Estamos utilizando NextJS. [Leia sua documentação](https://nextjs.org/) para informações sobre o framework.
