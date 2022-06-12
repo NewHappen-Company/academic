@@ -38,6 +38,10 @@ function GenerateCodeForm({
     clearCode();
   }
 
+  function goGooglePlay() {
+    window.open('https://play.google.com/store/apps/details?id=com.newhappen.nh');
+  }
+
   return (
     <Form data-testid="generate-code-form" onSubmit={(e) => onSubmit(e, { studentName, studentEmail, studentNumber, studentPhone })}>
       <Column w="w-full">
@@ -129,8 +133,7 @@ function GenerateCodeForm({
                 btnType='primary' 
                 size='small' 
                 bg='bg-angelYellow'
-                type='submit' 
-                isLoading={loading}
+                onClick={goGooglePlay}
               >
                 Ir para Google Play
               </Button>
