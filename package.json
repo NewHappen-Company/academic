@@ -12,12 +12,13 @@
     "commit": "git-cz"
   },
   "dependencies": {
-    "angel_ui": "^0.0.1-alpha.2",
+    "angel_ui": "^0.0.1-alpha.13",
     "axios": "^0.27.2",
     "date-fns": "^2.28.0",
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
     "string-mask": "^0.3.0",
     "uuid": "^8.3.2"
   },
