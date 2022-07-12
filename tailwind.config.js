@@ -8,6 +8,15 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('/background.png')",
+      },
+      spacing: {
+        '128': '32rem',
+      },
+      colors: {
+        'contact': 'rgba(107, 104, 144, 0.17)',
+        'footer': '#7E7E7E',
+        'subtitle': '#CED0D4',
+        'base': '#242237'
       }
     },
   },
